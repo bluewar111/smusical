@@ -19,13 +19,13 @@ class Auth extends CI_Controller {
     }
 
     public function _remap($method) {
-        $this -> load -> view('header_v');
+        $this -> load -> view('_header');
 
         if (method_exists($this, $method)) {
             $this -> {"{$method}"}();
         }
 
-        $this -> load -> view('footer_v');
+        $this -> load -> view('_footer');
     }
 
     /**

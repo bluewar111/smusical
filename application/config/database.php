@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'Driver={SQL Server Native Client 11.0};Server=localhost\Instance;Database=bizfactory;',
-	'username' => 'sa',
+	'hostname' => 'localhost',
+	'username' => 'sora111',
 	'password' => 'as1234',
-	'database' => '',
-	'dbdriver' => 'odbc',
+	'database' => 'sora111_godohosting_com',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
